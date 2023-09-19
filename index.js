@@ -4,7 +4,7 @@ const rota = require('./rotas');
 
 server.use(rota);
 
-server.listen(4000,()=>{
+server.listen(3000,()=>{
     console.log('server running')
 });
 
